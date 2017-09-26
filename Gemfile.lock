@@ -177,7 +177,6 @@ PLATFORMS
 DEPENDENCIES
   irbtools
   json
-  paint
   rails (~> 5)
   virtus
 
