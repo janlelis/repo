@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "rails", "~> 4"
+gem "rails"
 gem "dry-validation"
 gem "rspec"
 gem "rspec-rails"

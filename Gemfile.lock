@@ -150,7 +150,7 @@ PLATFORMS
 
 DEPENDENCIES
   dry-validation
-  rails (~> 4)
+  rails
   rspec
   rspec-rails
 
