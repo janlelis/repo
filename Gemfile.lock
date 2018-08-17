@@ -76,6 +76,8 @@ GEM
       dry-logic (~> 0.4, >= 0.4.0)
       dry-types (~> 0.13.1)
     erubi (1.7.1)
+    exists (1.0.0)
+      null_question (~> 1.0)
     globalid (0.4.1)
       activesupport (>= 4.2.0)
     i18n (1.1.0)
@@ -163,6 +165,7 @@ PLATFORMS
 
 DEPENDENCIES
   dry-validation
+  exists
   null_question
   pws
   rails
