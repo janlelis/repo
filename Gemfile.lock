@@ -95,6 +95,7 @@ GEM
     nio4r (2.3.1)
     nokogiri (1.8.4)
       mini_portile2 (~> 2.3.0)
+    null_question (1.0.0)
     paint (2.0.1)
     pbkdf2-ruby (0.2.1)
     pws (1.0.7)
@@ -141,14 +142,6 @@ GEM
     rspec-mocks (3.8.0)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.8.0)
-    rspec-rails (3.8.0)
-      actionpack (>= 3.0)
-      activesupport (>= 3.0)
-      railties (>= 3.0)
-      rspec-core (~> 3.8.0)
-      rspec-expectations (~> 3.8.0)
-      rspec-mocks (~> 3.8.0)
-      rspec-support (~> 3.8.0)
     rspec-support (3.8.0)
     sprockets (3.7.2)
       concurrent-ruby (~> 1.0)
@@ -170,10 +163,10 @@ PLATFORMS
 
 DEPENDENCIES
   dry-validation
+  null_question
   pws
   rails
   rspec
-  rspec-rails
 
 BUNDLED WITH
    1.16.1
